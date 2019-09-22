@@ -49,21 +49,21 @@ public class Main {
         double [] arr = new double[quantity];
         ArrayList<Double> arrayList = new ArrayList<>();
         for ( int j = 0; j < quantity; j++ ) {
-            System.out.println("Введите первую координату: ");
+            System.out.println("Введите x1: ");
             x1 = scanner.nextInt();
-            System.out.println("Введите вторую координату: ");
-            x2 = scanner.nextInt();
-            System.out.println("Введите третью координату: ");
-            x3 = scanner.nextInt();
-            System.out.println("Введите четвертую координату: ");
-            x4 = scanner.nextInt();
-            System.out.println("Введите пятую координату: ");
+            System.out.println("Введите y2: ");
             y1 = scanner.nextInt();
-            System.out.println("Введите шестую координату: ");
+            System.out.println("Введите x2: ");
+            x2 = scanner.nextInt();
+            System.out.println("Введите y2: ");
             y2 = scanner.nextInt();
-            System.out.println("Введите седьмую координату: ");
+            System.out.println("Введите x3: ");
+            x3 = scanner.nextInt();
+            System.out.println("Введите y3: ");
             y3 = scanner.nextInt();
-            System.out.println("Введите восьмую координату: ");
+            System.out.println("Введите x4: ");
+            x4 = scanner.nextInt();
+            System.out.println("Введите y4: ");
             y4 = scanner.nextInt();
 
             Rhombus rhombus = new Rhombus(x1, y1, x2, y2, x3, y3, x4, y4);
